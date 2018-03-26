@@ -1,6 +1,6 @@
 # Instructions for installing R
 
-Go to the [R-project website](https://www.r-project.org/) and download the latest version of R. Currently (2018-03-26), the latest and more stable version of R is [R v3.4.4](https://cran.r-project.org/src/base/R-3/R-3.4.4.tar.gz). If you click in the previous link, you will start downloading the zip file with this software. Please choose your preferred location to save this file (e.g. "C:/Program\ Files" for Windows users or "/User/Applications/" for Unix users) and unzip its content. You can unzip it with either with a specific software (e.g. Winzip, 7zip, etc.) or, if you are familiar and comfortable using the terminal, you can open a new terminal where this file has been saved and then type:
+Go to the [R-project website](https://www.r-project.org/) and download the latest version of R. Currently (2018-03-26), the latest and more stable version of R is [R v3.4.4](https://cran.r-project.org/src/base/R-3/R-3.4.4.tar.gz). If you click in the previous link, you will start downloading the zip file with this software. Please choose your preferred location to save this file (e.g. "C:/Program\ Files" for Windows users or "/User/Applications/" for Unix users) and unzip its content. You can unzip it either with a specific software (e.g. WinZip, 7-Zip, etc.) or, if you are familiar and comfortable using the terminal, you can open a new terminal where this file has been saved and then type:
 
 ```bash
 tar -xzf R-3.4.4.tar.gz 
