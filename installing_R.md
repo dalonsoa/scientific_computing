@@ -7,7 +7,7 @@ tar -xzf R-3.4.4.tar.gz
 ```
 
 Once you have R installed, we are going to install RStudio, a set of integrated tools designed to help you be more productive with R. Go to the [RStudio website](https://www.rstudio.com/products/rstudio/download/) and download the FREE installer version. The current version (2017-03-26) is RStudio v1.1.442. Please download the correct installer according to your platform, i.e. Ubuntu, Windows, Mac OS X, etc.
-Choose the location for the installer, execute it, and follow the default instructions to install it. The only thing that you will have to specify during the installation procedure, is where you want R to be installed.
+Choose the location for the installer, execute it, and follow the default instructions to install it. The only thing that you will have to specify during the installation procedure is where you want R to be installed.
 
 After that, just open RStudio and you are ready to use R! :)  
 
