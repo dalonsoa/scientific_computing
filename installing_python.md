@@ -74,4 +74,6 @@ Depending on the package, we will use a slightly different command. See below fo
 
     ```pip install biosppy```
 
+- [**lmfit**](https://lmfit.github.io/lmfit-py/): It is a high-level interface for fitting data. Esencially, it is a way more-friendly and easy to use method of using the Scipy optimization routines. 
 
+    ```pip install lmfit```
