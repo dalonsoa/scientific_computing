@@ -59,6 +59,8 @@ This panel is only visible if you open a file to edit in RStudio. In order to do
 
 * If you want to cancel a command that is running but you realised that will lead to a wrong output and/or an error, type in the R console `Esc`. If you were to run R from a terminal, take into account that you should use `ctrl+C` instead!
 
+* If you go to `Tools > Shell...` you will be able to open a terminal (not the R console, the shell terminal you have installed in your system) from RStudio!
+
 * Start always a project session with the command `rm( list = ls() )` or, if you are running your own script, make sure this is the first command you have to be run. Specifically, this command will clean your environment, ensuring that any object from any other environment you might have been working with before affects your current project session. By doing this, you make sure that no possible conflict between two variables named the same way (one in your current project environment, another from previous environments that you might have loaded before) might happen.
 
 * Name your variables wisely! If your variable is supposed to store the sum of a calculation, maybe you want to call it `sum_result`, for instance, so you can have a better idea of what content might be stored in this variable. The usage of underscores to name variables is a good option, so we encourage you following this procedure. You can also take a look at [this guide](http://adv-r.had.co.nz/Style.html) to see the R style we are going to follow in this workshop.
