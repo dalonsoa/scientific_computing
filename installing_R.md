@@ -51,12 +51,14 @@ This panel is only visible if you open a file to edit in RStudio. In order to do
 
 ![RStudio panel4](images/RStudio_panel4.png "RStudio panel4")
 
-### **SOME USEFUL TIPS**
+# SOME USEFUL TIPS BEFORE GETTING STARTED WITH R!
 
 * We recommend to type all your commands in the R script instead of typing them in the R console. This is because you can save this R script as a file, which means that you can later open it and re-run everything that you have been doing during this workshop.
 
 * If you want to run the commands you have typed in your R script in the R console, you do not need to copy and paste them from the editor to the console. You only need to type `ctrl+ENTER` (or `command+ENTER` for Mac users) having the mouse in the line you with the command you want to run and it will automatically be loaded and run into the R console. Alternatively, if you want to run some lines of the code you have in your R script, you can also select them with the mouse and type the shortcut while keeping the selection. 
 
-* Before typing a command, ***comment*** what this command does and why you are using it in the previous line starting with a `#`. Be concise, but give as many details as you need to explain why you are using this command and what it does. You might find it a bit tedious, although it is a good practice to get used to when you start programming. Think of a comment as a note for yourself and anyone reading the code. For instance, think about your future you reading a code you wrote 5 years ago in a project you have not been working on for a while. You do not want to spend hours trying to figure out why you wrote the code like this and why you used X function to do Y task, etc. Furthermore, if you are sharing your code with collaborators/supervisor/colleagues/friends/anyone, useful comments will help them to go through your code and understand how it works much easier. Therefore, make yourself, the people around you, and your future you a favour and comment your code :smile: 
-**Take home message**:
+* Before typing a command, ***comment*** what this command does and why you are using it in the previous line starting with a `#`. Be concise, but give as many details as you need to explain why you are using this command and what it does. You might find it a bit tedious, although it is a good practice to get used to when you start programming. Think of a comment as a note for yourself and anyone reading the code. For instance, think about your future you reading a code you wrote 5 years ago in a project you have not been working on for a while. You do not want to spend hours trying to figure out why you wrote the code like this and why you used X function to do Y task, etc. Furthermore, if you are sharing your code with collaborators/supervisor/colleagues/friends/anyone, useful comments will help them to go through your code and understand how it works much easier. Therefore, make yourself, the people around you, and your future you a favour and comment your code :smile:
+
+## **Take home message**
+
 ![Meme comment your code](images/thm_coding.png "Meme comment your code")
