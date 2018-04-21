@@ -59,6 +59,6 @@ This panel is only visible if you open a file to edit in RStudio. In order to do
 
 * Before typing a command, ***comment*** what this command does and why you are using it in the previous line starting with a `#`. Be concise, but give as many details as you need to explain why you are using this command and what it does. You might find it a bit tedious, although it is a good practice to get used to when you start programming. Think of a comment as a note for yourself and anyone reading the code. For instance, think about your future you reading a code you wrote 5 years ago in a project you have not been working on for a while. You do not want to spend hours trying to figure out why you wrote the code like this and why you used X function to do Y task, etc. Furthermore, if you are sharing your code with collaborators/supervisor/colleagues/friends/anyone, useful comments will help them to go through your code and understand how it works much easier. Therefore, make yourself, the people around you, and your future you a favour and comment your code :smile:
 
-## **Take home message**
+### **Take home message**
 
 ![Meme comment your code](images/thm_coding.png "Meme comment your code")
