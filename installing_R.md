@@ -8,20 +8,25 @@ Once you have R installed, we are going to install RStudio, a set of integrated 
 Choose the location for the installer, execute it, and follow the **default instructions** to install it. The only thing that you will have to specify during the installation procedure is where you want R to be installed.
 
 After that, just open RStudio and you are ready to use R! :)  
-
-![RStduo main window](images/RStudio_interface.png "RStudio main window")
+<p align="center">
+  <img width="800" height="500" src="https://github.com/dalonsoa/scientific_computing/blob/master/images/RStudio_interface.png">
+</p>
 
 # Working with RStudio
 
 The layout of RStudio has 3 main panels, although a fourth panel is available when you open your scripts:
 
-![RStduio panels](images/RStudio_panels.png "RStudio panels")
+<p align="center">
+  <img width="1000" height="500" src="https://github.com/dalonsoa/scientific_computing/blob/master/images/RStudio_panels.png">
+</p>
 
 
 ### (1) **The R console**
 Here you can type the R commands and visualize the content of your objects. One of its most useful utilities is the code completion. Imagine that you do not remember the proper spelling of a function you want to use (or you just do not feel like typing all the word :stuck_out_tongue:). If you start typing part of its name, you will start to see how the R console lists all possible functions that contain the letters you have typed, among which you might find the one you are looking for. The code completion works also with the names you have given to your R functions and/or objects during the current R project session or that you have loaded from your script.
 
-![RStudio code completion](images/RStudio_codecompletion.png "RStudio code completion")
+<p align="center">
+  <img width="600" height="400" src="https://github.com/dalonsoa/scientific_computing/blob/master/images/RStudio_codecompletion.png">
+</p>
 
 ### (2) **Environment/History/Connections tabs**:
 * **Environment** : Under this tab, you will see a list of everything you have defined/loaded/created during your R project session, i.e. functions, objects, packages... You can also import your data sets from the `Import Dataset` button, although we recommend you to use the specific command for that purpose (remember we are here to learn some programming! :muscle: ). You can also either save the current environment you are working on or load a previous environment you have previously saved. For instance, this might be useful to do if your environment has objects that have taken a while to create. Last, if you want to clean this environment (erase everything you have defined/loaded/created before), you can click the brush button (or type `rm( list = ls() )` in the console! :smile:). Bear in mind that, once you do this, you will have to run all the commands you used to create any data set you had in your environment before they were deleted.
@@ -43,13 +48,17 @@ Here you can type the R commands and visualize the content of your objects. One 
 
 * **Viewer**: Local web content can be viewed from this tab. However, we are not going to use this for the workshop, although you can visit [this website](https://support.rstudio.com/hc/en-us/articles/202133558-Extending-RStudio-with-the-Viewer-Pane) for more information about how to use it.
 
-![RStudio panel3](images/RStudio_panel3.png "RStudio panel3")
+<p align="center">
+  <img width="600" height="500" src="https://github.com/dalonsoa/scientific_computing/blob/master/images/RStudio_panel3.png">
+</p>
 
 ### (4) **Text editor panel**: 
 
 This panel is only visible if you open a file to edit in RStudio. In order to do this, you can either open one of your scripts *( (i) Go to `File > Open File...` or (ii) find your script in your filesystem and choose to open with RStudio )* or start a new script from scratch. For the latter, press the button with a blank file and a green "+" and select the kind of file you want to open. For this workshop, we are going to be coding in R, thus you want to select `R script`. As you see here, you can also use the shortcut `ctrl+shift+N` to open a new R script file :smile:
 
-![RStudio panel4](images/RStudio_panel4.png "RStudio panel4")
+<p align="center">
+  <img width="500" height="400" src="https://github.com/dalonsoa/scientific_computing/blob/master/images/RStudio_panel4.png">
+</p>
 
 # SOME USEFUL TIPS BEFORE GETTING STARTED WITH R!
 
