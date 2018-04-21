@@ -21,7 +21,7 @@ We recommend you to download the [Virtual Box from Oracle](https://www.virtualbo
 
 ## 3. Activate the Linux subsystem for Windows
 
-### **WARNING: DO NOT DO THIS IF YOU ARE NOT COMFORTABLE/EXPERIENCE ENOUGH WITH THE COMMAND LINE NOR WITH ACTIVATING THE DEVELOPER MODE**
+### **WARNING: DO NOT DO THIS IF YOU ARE NOT COMFORTABLE/EXPERIENCED ENOUGH WITH THE COMMAND LINE NOR WITH ACTIVATING THE DEVELOPER MODE**
 
 The last option, which is available for only Windows 10 users, consists of installing a Linux environment as a subsystem inside your Windows. According to the [Documentation](https://docs.microsoft.com/en-us/windows/wsl/about), you can:
 
