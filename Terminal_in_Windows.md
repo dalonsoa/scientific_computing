@@ -17,7 +17,7 @@ The coolest thing about this terminal is that you can manage your own Git reposi
 ## 2. Install a Linux distribution in a Virtual Box (VB)
 If you are keen on having a complete Linux experience and want to have more than a terminal, you can always create a Virtual Box with a Linux distribution.
 
-We recommend you to download the [Virtual Box from Oracle](https://www.virtualbox.org/), install it in your PC, and then download your preferred Linux distribution. For instance, if you want to install Ubuntu, you can download the Ubuntu desktop from [here](https://www.ubuntu.com/download/desktop). Once you have the installed the VB and downloaded the Linux distribution, just follow the instructions [here](http://www.psychocats.net/ubuntu/virtualbox). This tutorial explains how to install Ubuntu in the VB, but the same procedure can be followed to install any other Linux distribution :smile: 
+We recommend you to download the [Virtual Box from Oracle](https://www.virtualbox.org/), install it in your PC, and then download your preferred Linux distribution. For instance, if you want to install Ubuntu, you can download the Ubuntu desktop from [here](https://www.ubuntu.com/download/desktop). Once you have installed the VB and downloaded the Linux distribution, just follow the instructions [here](http://www.psychocats.net/ubuntu/virtualbox). This tutorial explains how to install Ubuntu in the VB, but the same procedure can be followed to install any other Linux distribution :smile: 
 
 ## 3. Activate the Linux subsystem for Windows
 
