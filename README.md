@@ -6,6 +6,10 @@ Materials, examples and exercises for the SRUK Scientific Computing course.
 * [Installing R](https://github.com/dalonsoa/scientific_computing/blob/master/installing_R.md)
 * [Installing Python](https://github.com/dalonsoa/scientific_computing/blob/master/installing_python.md)
 
+## Good programming practice
+
+* [Guide to some tips to follow for a good programming practice](https://github.com/dalonsoa/scientific_computing/blob/master/GPP.md)
+
 ## Windows users: the shell terminal
 
 * [How to start working with the terminal in Windows](https://github.com/dalonsoa/scientific_computing/blob/master/Terminal_in_Windows.md)
