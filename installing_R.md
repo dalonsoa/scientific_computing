@@ -74,9 +74,11 @@ This panel is only visible if you open a file to edit in RStudio. In order to do
 
 * You can visit [R bloggers](https://www.r-bloggers.com/), where any news related to R tend to be reposted there. Therefore, it is a good place to visit if you are looking for R tutorials on specific packages and any other random news related to R.
 
+* Name your variables wisely! If your variable is supposed to store the sum of a calculation, maybe you want to call it `sum_result`, for instance, so you can have a better idea of what content is stored in this variable. The usage of underscores to name variables is a good option, so we encourage you following this procedure. You can also take a look at [this guide](http://adv-r.had.co.nz/Style.html) to see the R style we are going to follow in this workshop.
+
 # Some more tips before starting to program in both R and Python (and in any other programming language!)
 
-* Name your variables wisely! If your variable is supposed to store the sum of a calculation, maybe you want to call it `sum_result`, for instance, so you can have a better idea of what content is stored in this variable. The usage of underscores to name variables is a good option, so we encourage you following this procedure. You can also take a look at [this guide](http://adv-r.had.co.nz/Style.html) to see the R style we are going to follow in this workshop.
+* Name your variables wisely! If your variable is supposed to store the sum of a calculation, maybe you want to call it `sum_result`, for instance, so you can have a better idea of what content is stored in this variable. The usage of underscores to name variables is a good option, so we encourage you following this procedure.
 
 * If you have any questions, remember to visit [StackOverflow](https://stackoverflow.com/questions/tagged/r). It is very likely that someone else has already have the same question you have and asked it in StackOverflow, which means that you have many chances to find there the answer to your question.
 
