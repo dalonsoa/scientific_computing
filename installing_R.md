@@ -60,7 +60,7 @@ This panel is only visible if you open a file to edit in RStudio. In order to do
   <img width="500" height="400" src="https://github.com/dalonsoa/scientific_computing/blob/master/images/RStudio_panel4.png">
 </p>
 
-# SOME USEFUL TIPS BEFORE GETTING STARTED WITH R!
+# Some usegul tips before getting started with R!
 
 * We recommend you type all your commands in the R script instead of typing them in the R console. This is because you can save this R script as a file, which means that you can later open it and re-run everything that you have been doing during this workshop.
 
@@ -76,7 +76,7 @@ This panel is only visible if you open a file to edit in RStudio. In order to do
 
 * You can visit [R bloggers](https://www.r-bloggers.com/), where any news related to R tend to be reposted there. Therefore, it is a good place to visit if you are looking for R tutorials on specific packages and any other random news related to R.
 
-# TIPS FOR BOTH PYTHON AND R
+# Some more tips before starting to program in both R and Python (and in any other programming language!)
 
 * If you have any questions, remember to visit [StackOverflow](https://stackoverflow.com/questions/tagged/r). It is very likely that someone else has already have the same question you have and asked it in StackOverflow, which means that you have many chances to find there the answer to your question.
 
