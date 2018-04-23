@@ -60,7 +60,7 @@ This panel is only visible if you open a file to edit in RStudio. In order to do
   <img width="500" height="400" src="https://github.com/dalonsoa/scientific_computing/blob/master/images/RStudio_panel4.png">
 </p>
 
-# Some usegul tips before getting started with R!
+# Some useful tips before getting started with R!
 
 * We recommend you type all your commands in the R script instead of typing them in the R console. This is because you can save this R script as a file, which means that you can later open it and re-run everything that you have been doing during this workshop.
 
