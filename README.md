@@ -8,7 +8,7 @@ Materials, examples and exercises for the SRUK Scientific Computing course.
 
 ## Good programming practice
 
-* [Guide to some tips to follow for a good programming practice](https://github.com/dalonsoa/scientific_computing/blob/master/GPP.md)
+* [Some tips you should follow for a good programming practice](https://github.com/dalonsoa/scientific_computing/blob/master/GPP.md)
 
 ## Windows users: the shell terminal
 
