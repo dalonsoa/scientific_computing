@@ -1,6 +1,6 @@
 # Good programing practice
 
-* Name your variables wisely! If your variable is supposed to store the sum of a calculation, maybe you want to call it `sum_result`, for instance, so you can have a better idea of what content is stored in this variable. The usage of underscores to name variables is a good option, so we encourage you following this procedure.
+* Name your variables wisely! If your variable is supposed to store the sum of a calculation, maybe you want to call it `sum_result`, for instance, so you can have a better idea of what content is stored in this variable. The usage of underscores to name variables is a good option, so we encourage you to follow this procedure. More importantly, once you choose a specific way to wisely name your variables, be consistent. Remember that code is like hand-writing: you would not change your hand-writing from one day to another, so do not do this with your coding style neither :smile: 
 
 * If you have any questions, remember to visit [StackOverflow](https://stackoverflow.com/questions/tagged/r). It is very likely that someone else has already have the same question you have and asked it in StackOverflow, which means that you have many chances to find there the answer to your question.
 
