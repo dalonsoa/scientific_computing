@@ -26,7 +26,7 @@ We recommend you to download the [Virtual Box from Oracle](https://www.virtualbo
 The last option, which is available for only Windows 10 users, consists of installing a Linux environment as a subsystem inside your Windows. According to the [Documentation](https://docs.microsoft.com/en-us/windows/wsl/about), you can:
 
 * Install your preferred Linux distributions.
-* Run command-line utilities (e.g. grep, sed, awk, sort, etc.)
+* Run command-line utilities (e.g. `grep`, `sed`, `awk`, `sort`, etc.)
 * Run bash shell scripts and Linux command-line applications such as tmux or vim.
 * Choose your favorite Linux distributions from the Windows Store.
 * Install Linux tools using (e.g. you can use `apt-get` as in Ubuntu)
