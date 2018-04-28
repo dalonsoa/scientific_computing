@@ -58,8 +58,7 @@ a_true & c_false
   What do you expect to get when you type `2+2 == 5`? Check it in the terminal.
   
 * ### Exercise 3    
-What do you expect to get when you type "T == TRUE"?
-   Check it in the terminal.
+  What do you expect to get when you type `T == TRUE`? Check it in the terminal.
 
 * ### Exercise 4  
   Run the following code and try to figure out what is happening with the value of the variable `val_1`:
@@ -79,9 +78,9 @@ What do you expect to get when you type "T == TRUE"?
     a) You have a conditional checking that your variable `X` is higher than 3.  
     b) If this is `TRUE`, then assign a new value to `X`: `FALSE`. Otherwise, assign `X` the value of `2`.  
     c) Print `The value of my variables is` followed by the value of your variable.  
-       **HINT**: Remember how we printed things in R that combined characters and numerical values in the examples given in  
-                 the theoretical part!
-   d) If you want a hard task, try to put an `else if` saying that if your variable is equal to `5`, it should print:  
-      `I went into the else if because my variable is equal to 5!`
+         ***HINT**: Remember how we printed things in R that combined characters and numerical values in the examples given in  
+                   the theoretical part!*  
+    d) If you want a hard task, try to put an `else if` saying that if your variable is equal to `5`, it should print:  
+       `I went into the else if because my variable is equal to 5!`
 
 
