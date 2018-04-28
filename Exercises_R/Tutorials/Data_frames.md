@@ -48,7 +48,7 @@ write.table( x = mtcars, file = paste( wd, "mtcars_df.tsv", sep = "" ),
              quote = F, sep = "\t")
 ```
 
-## 3. Opening a file and saving as data frame
+## 3. Opening a file and saving it as a data frame
 
 Now, if you want to open this file, you can use the function read.table() and save it into a variable so you can later explore this data frame :
 
