@@ -105,45 +105,48 @@ grep( pattern = "strawberry", x = fruits)
 *TIP: go back to the slides in the theory where the REGEX were explained so it can be easier to you to solve the following exercises*
 
 
-### Exercise 1
-You have the following character vector: `str_11 <- c( "cat", "dog", "hamster", "turtle" )`
+* ### Exercise 1 
+You have the following character vector: `str_11 <- c( "cat", "dog", "hamster", "turtle" )`  
 Do a regex where either cat or dog are replaced with "hamster"
 
-### Exercise 2
-You have the following character vector: `str_12 <- c( "bike", "bilateral", "Mike", "late" )`
+* ### Exercise 2  
+You have the following character vector: `str_12 <- c( "bike", "bilateral", "Mike", "late" )`  
 Grep everything that contains the pattern "ike" so you can know in which positions they can be found
 
-### Exercise 3
+* ### Exercise 3  
 Grep everything that ends up with "ate" in `str_12` 
 
-### Exercise 4
+* ### Exercise 4  
 Grep everything that starts with "bi"
 
-### Exercise 5
-You have the following character vector: `str_13 <- c( "abd98", "aaajlk23", "des2342kk44" )`
+* ### Exercise 5  
+You have the following character vector: `str_13 <- c( "abd98", "aaajlk23", "des2342kk44" )`  
 Grep everything that starts with a letter.
 
-### Exercise 6
+* ### Exercise 6  
 Grep everything that contains either "j" or "k" in `str_13`
 
-### Exercise 7 ( HARD! )
+* ### Exercise 7 ( HARD! )  
 Replace any letter in `str_13` by a question mark and store the result in a new vector
 
 ---
 
 ## 4. SUMMARY EXERCISES 
 
-### Exercise 1
+* ### Exercise 1  
 Create to different numeric vectors and find which values are different between the two vectors.
 
-### Exercise 2
+* ### Exercise 2  
 Now find which values are the same.
 
-### Exercise 3
+* ### Exercise 3  
 Create a third vector that contains the union of these two vectors.
-### Exercise 4
+
+* ### Exercise 4  
 Assign the value "6.5789485" to a variable. Find out the class of this vector. Afterwards, round this value to the third digit.
-### Exercise 5
+
+* ### Exercise 5  
 Now truncate this same value.
-### Exercise 6
+
+* ### Exercise 6  
 Create a vector named "test1" that contains a sequence of values from 1 to 3 increasing every 0.3 units. What is happening when you use the function `floor( test1 )`?
