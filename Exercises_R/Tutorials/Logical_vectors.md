@@ -67,7 +67,7 @@ a_true & c_false
   
   if ( val_1 == TRUE ){
     val_1 <- 2
-  }else
+  } else
     val_1 <- TRUE
   
   val_1
