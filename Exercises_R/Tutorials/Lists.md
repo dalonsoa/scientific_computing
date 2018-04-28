@@ -42,7 +42,7 @@ fossils$Luisa
 
 Furthermore, there is a function called `attach()` that lets you have your list as part of the R path, so you do not need to type `fossils$Susan` or `fossils$Luisa` to retrieve the elements of each entry. You should just type `Susan` or `Luisa`, the names of the entry.
 
-### **IMPORTANT**
+### **IMPORTANT!!**
 When you finish using your list,  please **DETACH** the list from the path. This might save you from more than one headache in the future!
 
 ``` R 
