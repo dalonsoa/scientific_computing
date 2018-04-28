@@ -105,69 +105,45 @@ grep( pattern = "strawberry", x = fruits)
 TIP: go back to the slides in the theory where the REGEX were explained so it can be easier to you to solve the following exercises
 ```
 
-### EX.1.
+### Exercise 1
 You have the following character vector: `str_11 <- c( "cat", "dog", "hamster", "turtle" )`
 Do a regex where either cat or dog are replaced with "hamster"
 
-### EX.2.
+### Exercise 2
 You have the following character vector: `str_12 <- c( "bike", "bilateral", "Mike", "late" )`
 Grep everything that contains the pattern "ike" so you can know in which positions they can be found
 
-### EX.3.
+### Exercise 3
 Grep everything that ends up with "ate" in `str_12` 
 
-### EX.4.
+### Exercise 4
 Grep everything that starts with "bi"
 
-### EX.6.
+### Exercise 5
 You have the following character vector: `str_13 <- c( "abd98", "aaajlk23", "des2342kk44" )`
 Grep everything that starts with a letter.
 
-### EX.6.
+### Exercise 6
 Grep everything that contains either "j" or "k" in `str_13`
 
-### HARD! EX.7.
+### Exercise 7 ( HARD! )
 Replace any letter in `str_13` by a question mark and store the result in a new vector
 
 ---
 
 ## 4. SUMMARY EXERCISES 
 
-# 1. Create to different numeric vectors and find which values 
-#    are different between the two vectors.
-# 2. Now find which values are the same.
-# 3. Create a third vector that contains the union of 
-#    these two vectors.
-# 4. Assign the value "6.5789485" to a variable. Find out the class
-#    of this vector. Afterwards, round this value to the third digit.
-# 5. Now truncate this same value.
-# 6. Create a vector named "test1" that contains a sequence of
-#    values from 1 to 3 increasing every 0.3 units.
-#    What is happening when you use the function floor( test1 )?
+### Exercise 1
+Create to different numeric vectors and find which values are different between the two vectors.
 
-# ###################
-# ---- SOLUTIONS ----
-# ###################
+### Exercise 2
+Now find which values are the same.
 
-# EX. 1
-vec_9  <- c( 1, 4, 5, 1 )
-vec_10 <- c( 1, 3, 3, 6 )
-setdiff( vec_9, vec_10 )
-
-# EX. 2
-intersect( vec_9, vec_10 )
-
-# EX. 3
-vec_11 <- union( vec_9, vec_10 )
-
-# EX. 4
-vec_12 <- 6.5789485
-class( vec_12 )
-round( vec_12, digits = 3 )
-
-# EX. 5
-trunc( vec_12 )
-
-# EX. 6
-test1 <- seq( from = 1, to = 3, by = 0.3 )
-floor( test1 )
+### Exercise 3
+Create a third vector that contains the union of these two vectors.
+### Exercise 4
+Assign the value "6.5789485" to a variable. Find out the class of this vector. Afterwards, round this value to the third digit.
+### Exercise 5
+Now truncate this same value.
+### Exercise 6
+Create a vector named "test1" that contains a sequence of values from 1 to 3 increasing every 0.3 units. What is happening when you use the function `floor( test1 )`?
