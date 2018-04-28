@@ -1,9 +1,6 @@
 # Character vectors
 
-The last type of R vectors we are going to see in this course are
-the character vectors. These store values that contain strings, 
-which are anything enclosed within quotation marks. 
-Run the following code to see some examples with strings.
+The last type of R vectors we are going to see in this course are the character vectors. These store values that contain strings, which are anything enclosed within quotation marks. Run the following code to see some examples with strings.
 
 ``` R
 str_1 <- "Hello world!"
@@ -21,80 +18,46 @@ a character vector with more than one element. For instance,
 fruits <- c( "strawberry", "apple", "orange", "mango" )
 fruits 
 ```
-##  QUICK EXERCISE 
 
-Which is the function that you can use to find how many values are stored
-in "fruits"? Use it and state the result
+---
+###  QUICK EXERCISE 
 
-# ###################
-# ---- SOLUTIONS ----
-# ###################
+Which is the function that you can use to find how many values are stored in `fruits`?
+Use it and print the result
 
-# EX. 1
-length( fruits )
+---
+The next part of this tutorial will guide you through some R functions that you can use to deal with character vectors.
 
-# The last part of this tutorial will guide you through some 
-# R functions that you can use to deal with character vectors.
+## Function `nchar()`
+You can type `?nchar` in the terminal to see how it works. Run the next code to see an example of how to use it and try
+to understand the output you get
 
-# Function "nchar()"
-# You can type ?nchar in the terminal to see how it works.
-# Run the next code to see an example of how to use it and try
-# to understand the output you get
-
+``` R 
 nchar( str_2 )
+```
 
-# #########################
-# ---- QUICK EXERCISE ----
-# #########################
+###  QUICK EXERCISE
 
-# 1. Create two character vectors with the strings you want.
-#    Then write a code that prints TRUE if the first vector
-#    has more characters than the second. Otherwise, it should
-#    print FALSE.
+**EX.1.** 
+Create two character vectors with the strings you want. Then write a code that prints `TRUE` if the first vector  
+has more characters than the second. Otherwise, it should print `FALSE`.
 
-# ###################
-# ---- SOLUTION ----
-# ###################
+## Functions `toupper()` and `tolower()`
+You can type `?toupper` and `?tolower` in the terminal to see how they work. You can then run the code below to see an  example of how they work:
 
-# EX. 1
-
-string_1 <- "Hello! This is my first message"
-string_2 <- "Aaaand, this is my second!"
-
-if ( nchar( string_1 ) > nchar( string_2 ) ){
-  print( TRUE )
-}else if( nchar( string_1 ) < nchar( string_2 ) ){
-  print( FALSE )
-}
-
-# Functions "toupper()" and "tolower()"
-# You can type ?toupper and ?tolower in the terminal to see
-# how they work. You can then run the code below to see an 
-# example of how they work:
-
+``` R
 str_3 <- toupper( str_1 )
 str_3
 tolower( str_3 )
+```
 
-# #########################
-# ---- QUICK EXERCISE ----
-# #########################
+###  QUICK EXERCISE 
 
-# 1. Convert the vector "fruits" into upper letters and then 
-#    print the result. Then, convert it back into lower letters
-#    and also print the result
+**EX.1.**
+Convert the vector "fruits" into upper letters and then print the result. Then, convert it back into lower letters and also print the result
 
-# ###################
-# ---- SOLUTION ----
-# ###################
 
-# EX. 1
-fruits_upp <- toupper( fruits )
-fruits_upp 
-fruits_low <- tolower( fruits_upp )
-fruits_low 
-
-# There are many examples we could do with REGEX (regular expressions)
+There are many examples we could do with REGEX (regular expressions)
 # However, we have limited time, so we will just do some examples
 # and then you should complete some quick exercises
 # Before getting started, you should have read the documentation of
