@@ -99,7 +99,7 @@ grep( pattern = "pineapple", x = fruits )
 grep( pattern = "strawberry", x = fruits)
 ```
 
-###  EXERCISES WITH REGEX
+###  2.1. EXERCISES WITH REGEX
 
 *TIP: go back to the slides in the theory where the REGEX were explained so it can be easier to you to solve the following exercises*
 
