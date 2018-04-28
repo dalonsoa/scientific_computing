@@ -101,9 +101,9 @@ grep( pattern = "strawberry", x = fruits)
 
 ###  EXERCISES WITH REGEX
 
-```
-TIP: go back to the slides in the theory where the REGEX were explained so it can be easier to you to solve the following exercises
-```
+
+*TIP: go back to the slides in the theory where the REGEX were explained so it can be easier to you to solve the following exercises*
+
 
 ### Exercise 1
 You have the following character vector: `str_11 <- c( "cat", "dog", "hamster", "turtle" )`
