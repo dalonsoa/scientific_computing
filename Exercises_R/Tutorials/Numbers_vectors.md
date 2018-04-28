@@ -81,7 +81,7 @@ a %/% b
 
 ---
 
-QUICK EXERCISES 
+### QUICK EXERCISES 
 
 * ### Exercise 1  
   Store in a new variable the result of `a` to the power of `2` and write a condition that prints the result of this calculation if this is higher than `5`.
@@ -111,7 +111,7 @@ using `:` or you can also use the function `seq()`. Type `?seq` to see how this 
 
 ---
 
-QUICK EXERCISES 
+### QUICK EXERCISES 
 
 * ### Exercise 1  
   Create two different numeric vectors with as many values as you want. Then, use the function `sum` to get the result of summing the values in both vectors.
@@ -128,23 +128,20 @@ QUICK EXERCISES
 
 ---
 
-### Functions "min()" and "max()"
-Use ?min and ?max to see how these functions work. 
-Now run the code below and try to understand the values you are
-returned
+### Functions `min()` and `max()`
+Use `?min` and `?max` to see how these functions work. Now run the code below and try to understand the values you are returned:
 
+``` R
 max( vector_1 )
 min( vector_1 )
+```
 
-#########################
----- QUICK EXERCISE ----
-#########################
+---
 
-1. Write a code that prints "Maximum and minimum are equal"
-   if the maximum number of a vector you create does not equal to
-   the minimum number of this same vector. Otherwise, it should
-   print "Maximum and minimum are equal" if they are
+### QUICK EXERCISE 
+Write a code that prints `Maximum and minimum are equal` if the maximum number of a vector you create does not equal to the minimum number of this same vector. Otherwise, it should print `Maximum and minimum are equal` if they are equal.
 
+---
 
 ### Function `rep()`
 Type ?rep and take a look at how this function works.
@@ -156,9 +153,8 @@ vector_2
 
 ---
 
-QUICK EXERCISE 
-* ### Exercise 1  
-  Repeat a sequence from 1 to 3 five times.
+### QUICK EXERCISE 
+Repeat a sequence from 1 to 3 five times.
 
 ---
 
@@ -166,14 +162,11 @@ There are many other functions that we can use, but we will either see them in n
 with your own data :smile: 
 Now it is time for some exercises!
 
----
+## 3. Exercise 
+
 ### NOTE
 Before getting started with the exercises for this tutorial,please make sure that you have checked the following functions and you understand how to use them. Otherwise, ask the tutors for help :smile:
 Functions: `floor`, `trunc`, `round`, `union`, `intersect`, `setdiff`, `length`
-
----
-
-## 3. Exercise 
 
 * ### Exercise 1  
   Create two different numeric vectors and find which values are different between the two vectors.
