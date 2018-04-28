@@ -95,7 +95,7 @@ a %/% b
 
 The last part of this tutorial will guide you through some R functions that you can use for some calculations. 
 
-### Function `sum()`
+### 2.1. Function `sum()`
 You can type `?sum` in the terminal to see how it works. In the next example, we are going to create a numeric vector with
 more than one value. We are going to use this function to get the sum of all the values of this vector. When we create this
 kind of vector, we always put a `c` (which means "combine") followed by parentheses. Inside the parentheses, we type all the values separated by commas. Pay attention to what happens when you place two dots between two numbers!
@@ -128,7 +128,7 @@ using `:` or you can also use the function `seq()`. Type `?seq` to see how this 
 
 ---
 
-### Functions `min()` and `max()`
+### 2.2. Functions `min()` and `max()`
 Use `?min` and `?max` to see how these functions work. Now run the code below and try to understand the values you are returned:
 
 ``` R
@@ -143,13 +143,13 @@ Write a code that prints `Maximum and minimum are equal` if the maximum number o
 
 ---
 
-### Function `rep()`
-Type ?rep and take a look at how this function works.
-Imagine that you want a vector with a specific value
-repeated X times. You can use this function as in the following
-example:
+### 2.3. Function `rep()`
+Type `?rep` and take a look at how this function works. Imagine that you want a vector with a specific value repeated X times. You can use this function as in the following example:
+
+``` R 
 vector_2 <- rep( 6, times = 5)
 vector_2
+```
 
 ---
 
