@@ -25,11 +25,10 @@ fruits
 Which is the function that you can use to find how many values are stored in `fruits`?
 Use it and print the result
 
----
-
-The next part of this tutorial will guide you through some R functions that you can use to deal with character vectors.
 
 ## 1. Some useful functions
+
+This part of the tutorial will guide you through some R functions that you can use to deal with character vectors.
 
 ### 1.1. Function `nchar()`
 You can type `?nchar` in the terminal to see how it works. Run the next code to see an example of how to use it and try
@@ -44,8 +43,6 @@ nchar( str_2 )
 ###  QUICK EXERCISE
 Create two character vectors with the strings you want. Then, write a code that prints `TRUE` if the first vector has more characters than the second. Otherwise, it should print `FALSE`.
 
-----
-
 ## 1.2. Functions `toupper()` and `tolower()`
 You can type `?toupper` and `?tolower` in the terminal to see how they work. You can then run the code below to see an  example of how they work:
 
@@ -59,8 +56,6 @@ tolower( str_3 )
 
 ###  QUICK EXERCISE 
 Convert the vector "fruits" into upper letters and then print the result. Then, convert it back into lower letters and also print the result
-
----
 
 ## 2. REGEX
 There are many examples we could do with REGEX (regular expressions). However, we have limited time, so we will just do some examples and then you should complete some quick exercises. Before getting started, you should have read the documentation of the following functions: `gsub` and`grep`
