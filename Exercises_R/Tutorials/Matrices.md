@@ -120,7 +120,7 @@ M_sum_rows
 M_sum_cols
 ```
 
-NOTE: Just as a curiosity, YOU can also turn a matrix into a vector, that is, you can decompose it by doing the following:
+**NOTE**: Just as a curiosity, you can also turn a matrix into a vector; that is, you can decompose it by doing the following:
 
 ``` R
 M_decomposed <- c( M )
