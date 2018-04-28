@@ -33,7 +33,6 @@ Do you see what has happend? The decimal part of `1.5`, value assigned to the va
 * ### Exercise 2  
   Now try to remember the function to change the class of a variable into numeric. Then, change the class of the `a_int` variable to numeric.
 
----
 
 If you want to check the class of a vector, you can always run the function `is.<CLASS_NAME>( <VARIABLE> )`. For instance,
 
@@ -89,7 +88,6 @@ a %/% b
 * ### Exercise 2  
   Store in a new variable the result of the square root `b` and write a condition that prints the remainder of dividing `b` into this new variable if this new variable is smaller than the result you got in exercise 1.
 
----
 
 ## 2. Some useful functions
 
@@ -126,7 +124,6 @@ using `:` or you can also use the function `seq()`. Type `?seq` to see how this 
   Create a vector that contains a sequence from 1 to 10 every two numbers, i.e. It should return `1 3 5 7 9`.
   ***HINT**: Look how `seq()` can be used for that!*
 
----
 
 ### 2.2. Functions `min()` and `max()`
 Use `?min` and `?max` to see how these functions work. Now run the code below and try to understand the values you are returned:
@@ -141,8 +138,6 @@ min( vector_1 )
 ### QUICK EXERCISE 
 Write a code that prints `Maximum and minimum are equal` if the maximum number of a vector you create does not equal to the minimum number of this same vector. Otherwise, it should print `Maximum and minimum are equal` if they are equal.
 
----
-
 ### 2.3. Function `rep()`
 Type `?rep` and take a look at how this function works. Imagine that you want a vector with a specific value repeated X times. You can use this function as in the following example:
 
@@ -156,7 +151,6 @@ vector_2
 ### QUICK EXERCISE 
 Repeat a sequence from 1 to 3 five times.
 
----
 
 There are many other functions that we can use, but we will either see them in next tutorials or you will find them when working
 with your own data :smile: 
