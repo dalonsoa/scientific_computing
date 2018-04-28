@@ -31,8 +31,8 @@ levels( types_work )
 
 One of the most important utilities of the factors is the way they can be used to plot the information they refer to. Let's add now another part of the information we have in our database:
 
-a) The amount of time they had worked in a previous job
-b) The amount of time they have been working in current job
+* a) The amount of time they had worked in a previous job  
+* b) The amount of time they have been working in current job
 
 ``` R
 time_previous <- c( 0, 1, 0, 5, 6, 10, 2, 10, 20, 1 )
