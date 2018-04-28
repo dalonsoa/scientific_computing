@@ -164,7 +164,6 @@ Now it is time for some exercises!
 
 ## 3. Exercise 
 
-### NOTE
 Before getting started with the exercises for this tutorial,please make sure that you have checked the following functions and you understand how to use them. Otherwise, ask the tutors for help :smile:
 Functions: `floor`, `trunc`, `round`, `union`, `intersect`, `setdiff`, `length`
 
