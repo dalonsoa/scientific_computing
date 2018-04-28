@@ -29,7 +29,9 @@ Use it and print the result
 
 The next part of this tutorial will guide you through some R functions that you can use to deal with character vectors.
 
-## 1. Function `nchar()`
+## 1. Some useful functions
+
+### 1.1. Function `nchar()`
 You can type `?nchar` in the terminal to see how it works. Run the next code to see an example of how to use it and try
 to understand the output you get
 
@@ -44,7 +46,7 @@ Create two character vectors with the strings you want. Then, write a code that 
 
 ----
 
-## 2. Functions `toupper()` and `tolower()`
+## 1.2. Functions `toupper()` and `tolower()`
 You can type `?toupper` and `?tolower` in the terminal to see how they work. You can then run the code below to see an  example of how they work:
 
 ``` R
@@ -60,7 +62,7 @@ Convert the vector "fruits" into upper letters and then print the result. Then, 
 
 ---
 
-## 3. REGEX
+## 2. REGEX
 There are many examples we could do with REGEX (regular expressions). However, we have limited time, so we will just do some examples and then you should complete some quick exercises. Before getting started, you should have read the documentation of the following functions: `gsub` and`grep`
 
 We are going to create a character vector with a specific string. Afterwards, we are going to use the function gsub to find a specific pattern and then replace it by something different. Run the code below and try to understand what is  happening
@@ -96,7 +98,6 @@ str_10
 grep( pattern = "pineapple", x = fruits )
 grep( pattern = "strawberry", x = fruits)
 ```
----
 
 ###  EXERCISES WITH REGEX
 
@@ -126,9 +127,8 @@ grep( pattern = "strawberry", x = fruits)
 * ### Exercise 7 ( HARD! )
   Replace any letter in `str_13` by a question mark and store the result in a new vector
   
----
 
-## 4. SUMMARY EXERCISES 
+## 3. SUMMARY EXERCISES 
 
 * ### Exercise 1  
   Create to different numeric vectors and find which values are different between the two vectors.
