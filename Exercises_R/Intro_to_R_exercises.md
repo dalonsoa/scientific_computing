@@ -1,8 +1,8 @@
 # Introduction to R
 
-As you have seen during the theoretical part, there are different data types in R. We are going to go through different exercises and examples so you become more familiar and comfortable when using these data types in R. For each of them, there is a specific tutorial with a description about the functions being used and some exercises to practise them. 
+As you have seen during the theoretical part, there are different data types in R. We are going to go through different exercises and examples so you become more familiar and comfortable when using these data types in R. For each of them, there is a specific tutorial with a description about the functions being used and some exercises to put all the theoretical backgrounf into practise. 
 
-In order for you to keep track of the exercises you have carried to practise the usage of each data type, we think that you might find useful to have a separate R script for each tutorial. Following the GPP, we recommend that you start each of your R scripts with the following code or something very similar:
+In order for you to keep track of the exercises you have carried out, we think that you might find it useful to have a separate R script for each tutorial. Following the GPP, we recommend that you start each of your R scripts with the following code or something very similar:
 
 ```
 # Introduction to R – 180428
@@ -40,7 +40,8 @@ set.seed( 12345 )
 
 # VECTOR
 
-The first data type we are going to work with is the vector. Remember that there were 6 different types of vectors:
+The first data type we are going to work with is the vector. Remember that there are 6 different types of vectors:
+
 * Logical 
 * Numeric
 * Integer
@@ -48,7 +49,7 @@ The first data type we are going to work with is the vector. Remember that there
 * Character
 * Raw
 
-We are going to have a closer look at each of them, except for the “raw” vector. As introduced during the theory, this type of vector is very specific and the data we are going to be working with does not need it. However, if you are keen on knowing more about the “raw” vector, you can visit [this website](http://stat.ethz.ch/R-manual/R-patched/RHOME/library/base/html/raw.html) for more information.
+We are going to have a closer look at each of them, except for the “raw” vector. As introduced during the theory, this type of vector is very specific and the data we are going to be working with does not use it. However, if you are keen on knowing more about the “raw” vector, you can visit [this website](http://stat.ethz.ch/R-manual/R-patched/RHOME/library/base/html/raw.html) for more information.
 
 ##	Logical vectors
 
