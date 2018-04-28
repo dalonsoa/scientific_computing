@@ -36,11 +36,13 @@ to understand the output you get
 nchar( str_2 )
 ```
 
+---
+
 ###  QUICK EXERCISE
 
-**EX.1.** 
-Create two character vectors with the strings you want. Then write a code that prints `TRUE` if the first vector  
-has more characters than the second. Otherwise, it should print `FALSE`.
+Create two character vectors with the strings you want. Then, write a code that prints `TRUE` if the first vector has more characters than the second. Otherwise, it should print `FALSE`.
+
+----
 
 ## Functions `toupper()` and `tolower()`
 You can type `?toupper` and `?tolower` in the terminal to see how they work. You can then run the code below to see an  example of how they work:
@@ -51,104 +53,84 @@ str_3
 tolower( str_3 )
 ```
 
+---
+
 ###  QUICK EXERCISE 
 
-**EX.1.**
 Convert the vector "fruits" into upper letters and then print the result. Then, convert it back into lower letters and also print the result
 
+---
 
-There are many examples we could do with REGEX (regular expressions)
-# However, we have limited time, so we will just do some examples
-# and then you should complete some quick exercises
-# Before getting started, you should have read the documentation of
-# the following functions: gsub, grep, regexpr
+There are many examples we could do with REGEX (regular expressions). However, we have limited time, so we will just do some examples and then you should complete some quick exercises. Before getting started, you should have read the documentation of the following functions: `gsub` and`grep`
 
+We are going to create a character vector with a specific string. Afterwards, we are going to use the function gsub to find a specific pattern and then replace it by something different. Run the code below and try to understand what is  happening
 
-# We are going to create a character vector with a specific 
-# string. Afterwards, we are going to use the function gsub to
-# find a specific pattern and then replace it by something
-# different. Run the code below and try to understand what is 
-# happening
-
-# Example 1
+### Example 1
+``` R
 str_4 <- c( "pineapple", "tomato", "cheese", "onion" )
 
 str_5 <- gsub( pattern = "pineapple", replacement = "more cheese",
                x = str_4 ) 
 str_5
+```
 
-# Example 2
+### Example 2
+``` R
 str_6 <- "I like Greek food!"
 str_7 <- gsub( pattern = "like", replacement = "love", x = str_6 )
 str_7
+```
 
-# Example 3
+### Example 3
+``` R
 str_8  <- "We  have   too many             spaces"
 str_8
 str_9  <- gsub( pattern = "\\s{2,}", replacement = " ", x = str_8 )
 str_10 <- gsub( pattern = "have", replacement = "do not have",
                x = str_9 )
 str_10
+```
 
-# Example 4
+### Example 4
+``` R
 grep( pattern = "pineapple", x = fruits )
 grep( pattern = "strawberry", x = fruits)
+```
+---
 
-# ###################
-# ---- EXERCISES ----
-# ###################
+##  EXERCISES WITH REGEX
 
-# TIP: go back to the slides in the theory where the REGEX were
-#      explained so it can be easier to you to solve the following
-#      exercises
+---
 
-# 1. You have the following character vector:
-#    str_11 <- c( "cat", "dog", "hamster", "turtle" )
-#    Do a regex where either cat or dog are replaced with "hamster"
-#
-# 2. You have the following character vector:
-#    str_12 <- c( "bike", "bilateral", "Mike", "late" )
-#    Grep everything that contains the pattern "ike" so you can
-#    know in which positions they can be found
-#
-# 3. Grep everything that ends up with "ate" in str_12 
-#
-# 4. Grep everything that starts with "bi"
-# 
-# 5. You have the following character vector:
-#    str_13 <- c( "abd98", "aaajlk23", "des2342kk44" )
-#    Grep everything that starts with a letter.
-#
-# 6. Grep everything that contains either "j" or "k" in str_13
-# 
-# [HARD] 7. Replace any letter in str_13 by a question mark
-#           and store the result in a new vector
+TIP: go back to the slides in the theory where the REGEX were explained so it can be easier to you to solve the following exercises
 
-# ###################
-# ---- SOLUTION ----
-# ###################
+---
 
-# EX. 1
-str_11 <- c( "cat", "dog", "hamster", "turtle" )
-gsub( pattern = "dog|cat", replacement = "hamster", x = str_11 )
+### EX.1.
+You have the following character vector: `str_11 <- c( "cat", "dog", "hamster", "turtle" )`
+Do a regex where either cat or dog are replaced with "hamster"
 
-# EX. 2
-str_12 <- c( "bike", "bilateral", "Mike", "late" )
-grep( pattern = "ike", x= str_12 )
+### EX.2.
+You have the following character vector: `str_12 <- c( "bike", "bilateral", "Mike", "late" )`
+Grep everything that contains the pattern "ike" so you can know in which positions they can be found
 
-# EX. 3
-grep( pattern = "ate$", x = str_12 )
+### EX.3.
+Grep everything that ends up with "ate" in `str_12` 
 
-# EX. 4
-grep( pattern = "^bi", x = str_12 )
+### EX.4.
+Grep everything that starts with "bi"
 
-# EX. 5
-str_13 <- c( "abd98", "aaajlk23", "2342kk44des" )
-grep( pattern = "^[a-z]", x = str_13 )
+### EX.6.
+You have the following character vector: `str_13 <- c( "abd98", "aaajlk23", "des2342kk44" )`
+Grep everything that starts with a letter.
 
-# EX. 6
-str_14 <- gsub( pattern = "[a-z]", replacement = "\\?", x = str_13 )
-str_14 
+### EX.6.
+Grep everything that contains either "j" or "k" in `str_13`
+
+### HARD! EX.7.
+Replace any letter in `str_13` by a question mark and store the result in a new vector
+
+---
 
 # ####################
 # ----  EXERCISES ----
