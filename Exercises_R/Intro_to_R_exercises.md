@@ -1,6 +1,8 @@
 # Introduction to R
 
-As you have seen during the theoretical part, there are different data types in R. We are going to practise with each of them so you can get more familiar and comfortable with them. For each of the tutorials, you should open a new R file in RStudio and start with the following code:
+As you have seen during the theoretical part, there are different data types in R. We are going to go through different exercises and examples so you become more familiar and comfortable when using these data types in R. For each of them, there is a specific tutorial with a description about the functions being used and some exercises to practise them. 
+
+In order for you to keep track of the exercises you have carried to practise the usage of each data type, we think that you might find useful to have a separate R script for each tutorial. Following the GPP, we recommend that you start each of your R scripts with the following code or something very similar:
 
 ```
 # Introduction to R – 180428
@@ -36,9 +38,9 @@ set.seed( 12345 )
 
 ```
 
-# VECTORS
+# VECTOR
 
-The first data type we are going to work with is the vector data type. Remember that there were 6 different types of vectors:
+The first data type we are going to work with is the vector. Remember that there were 6 different types of vectors:
 * Logical 
 * Numeric
 * Integer
@@ -46,32 +48,27 @@ The first data type we are going to work with is the vector data type. Remember 
 * Character
 * Raw
 
-We are going to have a closer look at each of them, except for the “raw” vector. As introduced during the theory, this type of vector is very specific and the data we are going to be working with does not need it. However, if you are keen on knowing more about the “raw” vector, you can visit this website for more information.
+We are going to have a closer look at each of them, except for the “raw” vector. As introduced during the theory, this type of vector is very specific and the data we are going to be working with does not need it. However, if you are keen on knowing more about the “raw” vector, you can visit [this website](http://stat.ethz.ch/R-manual/R-patched/RHOME/library/base/html/raw.html) for more information.
 
 ##	Logical vectors
 
-Logical vectors are used to return either True or False. They are very useful if you want to set a specific condition to, for instance, start a function, a loop, print a statement, etc. We are going to see some examples so you can keep practising!
+Logical vectors are used to return either `True` or `False`. They are very useful if you want to set a specific condition in order to, for instance, start a function, a loop, print a statement, etc. We are going to see some examples so you can keep practising!
 
 ## Numeric, Integer, and Complex vectors
 The vectors which value is a number have a different class depending on the kind of numbers stored: numeric, integer, or complex. Get ready to play with some examples so it is easier for you to differentiate them! 
 
 ## Character vectors
- The last vectors we are going to see are the character vectors. These vectors contain strings, which are anything enclosed in quotation marks. Let’s get started!
+The last vectors we are going to see are the character vectors. These vectors contain strings, which are anything enclosed in quotation marks. Let’s get started!
 
-Now that you know better how to work with the different R vectors, the next exercises are going to teach you the following:
-1.	How to access the elements stored in the vectors
-2.	How to plot the content of the vector
-3.	How to deal with missing values (NA)
-
-# LISTS
+# LIST
 The next data type we are going to work with is the list. 
 
-# FACTORS
-If you want to arrange your data into levels, it is important that you convert your data into factor class. Learn how in the next tutorial!
+# FACTOR
+If you want to arrange your data into levels, it is important that the object that you are working with is of class factor. Learn how to work with this object in the next tutorial!
 
-# MATRICES
-The first step is working with vectors, but now you can learn how to arrange these vectors into matrices, so you can work with more than one dimension. Remember that matrices are one of the mostly used classes in R to store the data! 
+# MATRIX
+The first step was learning to work with vectors, which have only one dimension. The next step is to learn how to work with matrices, which have more than one dimension! Remember that matrices are one of the mostly used classes in R to store the data! 
 
-# DATA FRAMES
-Last, we are going to play with some data frames. Furthermore, we are going to learn how we would import them from a data file!
+# DATA FRAME
+Last, we are going to play with some data frames. Furthermore, we are going to learn how we can import them from a data file and how we can save them in our PC!
 
