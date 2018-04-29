@@ -16,3 +16,9 @@ As newcomers to the programming world, it is easier for you to start applying fr
 
 * [How to start working with the terminal in Windows](https://github.com/dalonsoa/scientific_computing/blob/master/Terminal_in_Windows.md)
 
+## Exercises
+
+In the following links you will find the exercises you started to work with during the practical part of the course. If you have any doubts about the solutions you have for the exercises or you have any questions, please post a new topic in the course mailing list you. Maybe you are not the only one having this question, so this is the most efficient way to keep track of all your doubts, answer them, and make the discussions available to all the attendees :smile:
+
+* [R exercises](https://github.com/dalonsoa/scientific_computing/blob/master/Exercises_R/Intro_to_R_exercises.md)
+* [Python exercises](https://github.com/dalonsoa/scientific_computing/tree/master/examples_python)
