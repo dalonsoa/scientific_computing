@@ -1,6 +1,6 @@
 # Introduction to R
 
-As you have seen during the theoretical part, there are different data types in R. We are going to go through different exercises and examples so you become more familiar and comfortable when using these data types in R. For each of them, there is a specific tutorial with a description about the functions being used and some exercises to put all the theoretical backgrounf into practise. 
+As you have seen during the theoretical part, there are different data types in R. We are going to go through different exercises and examples so you become more familiar and comfortable when using these data types in R. For each of them, there is a specific tutorial with a description about the functions being used and some exercises so you can practise all the theory you have been learning :smile: 
 
 In order for you to keep track of the exercises you have carried out, we think that you might find it useful to have a separate R script for each tutorial. Following the GPP, we recommend that you start each of your R scripts with the following code or something very similar:
 
@@ -38,7 +38,7 @@ set.seed( 12345 )
 
 ```
 
-# VECTOR
+# 1. Vector
 
 The first data type we are going to work with is the vector. Remember that there are 6 different types of vectors:
 
@@ -55,21 +55,41 @@ We are going to have a closer look at each of them, except for the “raw” vec
 
 Logical vectors are used to return either `True` or `False`. They are very useful if you want to set a specific condition in order to, for instance, start a function, a loop, print a statement, etc. We are going to see some examples so you can keep practising!
 
+* [Tutorial to work with logical vectors](https://github.com/dalonsoa/scientific_computing/blob/master/Exercises_R/Tutorials/Logical_vectors.md)
+
 ## Numeric, Integer, and Complex vectors
 The vectors which value is a number have a different class depending on the kind of numbers stored: numeric, integer, or complex. Get ready to play with some examples so it is easier for you to differentiate them! 
+
+* [Tutorial to work with numeric, integer, and complex vectors](https://github.com/dalonsoa/scientific_computing/blob/master/Exercises_R/Tutorials/Numbers_vectors.md)
 
 ## Character vectors
 The last vectors we are going to see are the character vectors. These vectors contain strings, which are anything enclosed in quotation marks. Let’s get started!
 
-# LIST
+* [Tutorial to work with character vectors](https://github.com/dalonsoa/scientific_computing/blob/master/Exercises_R/Tutorials/Character_vectors.md)
+
+## Working with vectors
+
+Your next step is to learn how to access, manipulate, and plot all the vectors that you have learnt in the previous tutorials. Good luck with the next tasks!
+
+* [Tutorial to work with different types of vectors](https://github.com/dalonsoa/scientific_computing/blob/master/Exercises_R/Tutorials/Working_with_vectors.md)
+
+# 2. List
 The next data type we are going to work with is the list. 
 
-# FACTOR
+* [Tutorial to work with objects of class list](https://github.com/dalonsoa/scientific_computing/blob/master/Exercises_R/Tutorials/Lists.md)
+
+# 3. Factor
 If you want to arrange your data into levels, it is important that the object that you are working with is of class factor. Learn how to work with this object in the next tutorial!
 
-# MATRIX
+* [Tutorial to work with objects of class factor](https://github.com/dalonsoa/scientific_computing/blob/master/Exercises_R/Tutorials/Factors.md)
+
+# 4. Matrix
 The first step was learning to work with vectors, which have only one dimension. The next step is to learn how to work with matrices, which have more than one dimension! Remember that matrices are one of the mostly used classes in R to store the data! 
 
-# DATA FRAME
+* [Tutorial to work with objects of class matrix](https://github.com/dalonsoa/scientific_computing/blob/master/Exercises_R/Tutorials/Matrices.md)
+
+# 5. Data frame
 Last, we are going to play with some data frames. Furthermore, we are going to learn how we can import them from a data file and how we can save them in our PC!
+
+* [Tutorial to work with objects of class data frame](https://github.com/dalonsoa/scientific_computing/blob/master/Exercises_R/Tutorials/Data_frames.md)
 
