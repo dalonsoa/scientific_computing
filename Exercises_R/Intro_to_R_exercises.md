@@ -57,7 +57,7 @@ Logical vectors are used to return either `True` or `False`. They are very usefu
 
 * [Tutorial to work with logical vectors](https://github.com/dalonsoa/scientific_computing/blob/master/Exercises_R/Tutorials/Logical_vectors.md)
 
-## Numeric, Integer, and Complex vectors
+## Numeric, integer, and complex vectors
 The vectors which value is a number have a different class depending on the kind of numbers stored: numeric, integer, or complex. Get ready to play with some examples so it is easier for you to differentiate them! 
 
 * [Tutorial to work with numeric, integer, and complex vectors](https://github.com/dalonsoa/scientific_computing/blob/master/Exercises_R/Tutorials/Numbers_vectors.md)
