@@ -8,7 +8,7 @@ To download Anaconda, simply click in the following link:
 
 [Download Anaconda](https://www.anaconda.com/download)
 
-You should be offered with the correct version for your OS. During this course, we will use **Anaconda 5.1** (the newest at the time of writing this gide) with **Python 3.6**. Make sure you click in the correct download button.
+You should be offered with the correct version for your OS. During this course, we will use **Anaconda 2018.12** (the newest at the time of writing this gide) with **Python 3.7**. Make sure you click in the correct download button.
 
 The default settings during the installation should be fine in most cases, as long as you do not have other Python 3 already installed in your sistem. If you are using Windows or Mac OS, chances are this is your first Python 3. In some Linux distributions, Python 3 might be installed already, but hopefully Anaconda will not create any conflict. 
 
