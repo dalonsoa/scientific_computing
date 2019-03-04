@@ -28,7 +28,7 @@ Of course, the basic Python 3.7 distribution with all the basic tools you find n
 
 ## How do I get started?
 
-Anaconda itself is not a piece of software, but rather a bundle of different tools conveniently packed together. To develop Python applications, we will use Jupyter notebooks. The material for the course are actually Jupyter notebooks that you can open and edit.  
+Anaconda itself is not a piece of software, but rather a bundle of different tools conveniently packed together. To develop Python applications, we will use [Jupyter notebooks](https://jupyter.org). The material for the course are actually Jupyter notebooks that you can open and edit.  
 
 To launch Jupyter notebooks, there are several options depending on your OS:
 
